@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+  width: 109px;
+  height: 880px;
+  background: rgba(255, 255, 0, 0.42);
+  border-radius: 40px;
+}
+
+.nav-items{
+    margin-top: 200px;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    padding: 24px;
+}
