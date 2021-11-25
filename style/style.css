@@ -69,9 +69,10 @@ main {
   flex-direction: column;
 }
 
-main h1 {
+ main h1 {
   margin-bottom: 1rem;
 }
+
 
 main .copyright {
   margin-top: auto;
@@ -82,7 +83,7 @@ main .copyright span {
   color: var(--main-color);
   font-weight: 500;
   cursor: pointer;
-}
+} 
 
 .sidebar-top {
   position: relative;
