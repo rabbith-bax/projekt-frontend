@@ -1,2 +1,9 @@
-Front end projekt
-Twórcy: ...
+## TODO
+
+- Pages
+- UI
+- tables
+- forms
+- charts
+
+To documentacja
