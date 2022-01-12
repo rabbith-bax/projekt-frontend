@@ -1,0 +1,8 @@
+.doct_name{
+    display: flex;
+   justify-content: space-between;
+}
+
+.img_doct{
+    border-radius: 30px;
+}
