@@ -1,0 +1,263 @@
+<div style="padding-top: 3%;">
+                            <div class="row align-items-start">
+                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+                                    <div class="container">
+                                        <div class="form-group row">
+                                            <h4 class="col ">Pediatrician</h4>
+                                            <a href="#" class="col " style="text-align: right;">see all</a>
+                                        </div>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                class="active"></li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                            </li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner" class="img_doct" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="d-block img-fluid img_doct" class="img_doct"
+                                                    src="assets/images/doctors/doct_1.jpg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
+                                    <div class="container">
+                                        <div class="form-group row">
+                                            <h4 class="col ">Pediatrician</h4>
+                                            <a href="#" class="col " style="text-align: right;">see all</a>
+                                        </div>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                class="active"></li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                            </li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
+                                                    alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+                                    <div class="container">
+                                        <div class="form-group row">
+                                            <h4 class="col ">Pediatrician</h4>
+                                            <a href="#" class="col " style="text-align: right;">see all</a>
+                                        </div>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                class="active"></li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                            </li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
+                                                    alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <!-- Line 3 -->
+
+                        <div style="padding-top: 3%;">
+                            <div class="row align-items-start">
+                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
+                                    <div class="container">
+                                        <div class="form-group row">
+                                            <h4 class="col ">Pediatrician</h4>
+                                            <a href="#" class="col " style="text-align: right;">see all</a>
+                                        </div>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                class="active"></li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                            </li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner" class="img_doct" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="d-block img-fluid img_doct" class="img_doct"
+                                                    src="assets/images/doctors/doct_1.jpg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
+                                    <div class="container">
+                                        <div class="form-group row">
+                                            <h4 class="col ">Pediatrician</h4>
+                                            <a href="#" class="col " style="text-align: right;">see all</a>
+                                        </div>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                class="active"></li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                            </li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
+                                                    alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+                                    <div class="container">
+                                        <div class="form-group row">
+                                            <h4 class="col ">Pediatrician</h4>
+                                            <a href="#" class="col " style="text-align: right;">see all</a>
+                                        </div>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                class="active"></li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                            </li>
+                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
+                                                    alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
+                                                    alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
+                                                    alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>

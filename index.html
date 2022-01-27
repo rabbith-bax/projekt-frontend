@@ -19,6 +19,16 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
     <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
 
+    <!-- Import pages -->
+    <script type="module" src="pages/doc-1.js"></script>
+    <script type="module" src="pages/doc-2.js"></script>
+    <script type="module" src="pages/doc-3.js"></script>
+    <script type="module" src="pages/doc-4.js"></script>
+    <script type="module" src="pages/doc-5.js"></script>
+    <script type="module" src="pages/doc-6.js"></script>
+    <script type="module" src="pages/myFooter.js"></script>
+
+
 </head>
 
 <body class="loading"
@@ -145,25 +155,24 @@
                                 <span class="noti-icon-badge"></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated dropdown-lg">
-
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
                                     <h5 class="m-0">
                                         <span class="float-end">
                                             <a href="javascript: void(0);" class="text-dark">
                                                 <small>Clear All</small>
-                                            </a>
-                                        </span>Notification
+                                            </a> </span>Notification
                                     </h5>
                                 </div>
 
-                                <div style="max-height: 230px;" data-simplebar>
+                                <div style="max-height: 230px" data-simplebar>
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="notify-icon bg-primary">
                                             <i class="mdi mdi-comment-account-outline"></i>
                                         </div>
-                                        <p class="notify-details">Caleb Flakelar commented on Admin
+                                        <p class="notify-details">
+                                            Dr. Hanna Meu confirmed your application
                                             <small class="text-muted">1 min ago</small>
                                         </p>
                                     </a>
@@ -173,8 +182,9 @@
                                         <div class="notify-icon bg-info">
                                             <i class="mdi mdi-account-plus"></i>
                                         </div>
-                                        <p class="notify-details">New user registered.
-                                            <small class="text-muted">5 hours ago</small>
+                                        <p class="notify-details">
+                                          Don't forget to take a pill.
+                                            <!--<small class="text-muted">5 hours ago</small>-->
                                         </p>
                                     </a>
 
@@ -186,7 +196,7 @@
                                         </div>
                                         <p class="notify-details">Cristina Pride</p>
                                         <p class="text-muted mb-0 user-msg">
-                                            <small>Hi, How are you? What about our next meeting</small>
+                                            <small>Hi, How are you feelling after medicaments?</small>
                                         </p>
                                     </a>
 
@@ -195,33 +205,13 @@
                                         <div class="notify-icon bg-primary">
                                             <i class="mdi mdi-comment-account-outline"></i>
                                         </div>
-                                        <p class="notify-details">Caleb Flakelar commented on Admin
+                                        <p class="notify-details">
+                                            Caleb Flakelar answered you.
                                             <small class="text-muted">4 days ago</small>
                                         </p>
                                     </a>
 
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon">
-                                            <img src="assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle"
-                                                alt="" />
-                                        </div>
-                                        <p class="notify-details">Karen Robinson</p>
-                                        <p class="text-muted mb-0 user-msg">
-                                            <small>Wow ! this admin looks good and awesome design</small>
-                                        </p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-info">
-                                            <i class="mdi mdi-heart"></i>
-                                        </div>
-                                        <p class="notify-details">Carlos Crouch liked
-                                            <b>Admin</b>
-                                            <small class="text-muted">13 days ago</small>
-                                        </p>
-                                    </a>
+                                  
                                 </div>
 
                                 <!-- All-->
@@ -229,7 +219,6 @@
                                     class="dropdown-item text-center text-primary notify-item notify-all">
                                     View All
                                 </a>
-
                             </div>
                         </li>
 
@@ -243,11 +232,12 @@
                             <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown"
                                 href="#" role="button" aria-haspopup="false" aria-expanded="false">
                                 <span class="account-user-avatar">
-                                    <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                                    <img src="./img/patient-icon.svg" alt="user-image"
+                                        class="rounded-circle" />
                                 </span>
                                 <span>
-                                    <span class="account-user-name">Dominic Keller</span>
-                                    <span class="account-position">Pacjent</span>
+                                    <span class="account-user-name">Harold Mann</span>
+                                    <span class="account-position">Patient</span>
                                 </span>
                             </a>
                             <div
@@ -304,43 +294,25 @@
                         </form>
 
                         <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
+
                             <!-- item-->
                             <div class="dropdown-header noti-title">
-                                <h5 class="text-overflow mb-2">Found <span class="text-danger">17</span> results</h5>
+                                <h6 class="text-overflow mb-2 text-uppercase">Doctors</h6>
                             </div>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="uil-notes font-16 me-1"></i>
-                                <span>Analytics Report</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="uil-life-ring font-16 me-1"></i>
-                                <span>How can I help you?</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="uil-cog font-16 me-1"></i>
-                                <span>User profile settings</span>
-                            </a>
-
-                            <!-- item-->
                             <div class="dropdown-header noti-title">
-                                <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                                <h5 class="text-overflow mb-2">Found <span class="text-danger">2</span> results</h5>
                             </div>
 
                             <div class="notification-list">
+
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <a href="javascript:void(0); ./your_treatmen.html" class="dropdown-item notify-item">
                                     <div class="d-flex">
-                                        <img class="d-flex me-2 rounded-circle" src="assets/images/users/avatar-2.jpg"
+                                        <img class="d-flex me-2 rounded-circle" src="./img/doctor-icon.svg"
                                             alt="Generic placeholder image" height="32">
                                         <div class="w-100">
-                                            <h5 class="m-0 font-14">Erwin Brown</h5>
-                                            <span class="font-12 mb-0">UI Designer</span>
+                                            <h5 class="m-0 font-14">Dr. Ann Derment</h5>
+                                            <span class="font-12 mb-0">Pediatrician</span>
                                         </div>
                                     </div>
                                 </a>
@@ -348,14 +320,22 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="d-flex">
-                                        <img class="d-flex me-2 rounded-circle" src="assets/images/users/avatar-5.jpg"
+                                        <img class="d-flex me-2 rounded-circle" src="./img/doctors/doct-2.svg"
                                             alt="Generic placeholder image" height="32">
                                         <div class="w-100">
-                                            <h5 class="m-0 font-14">Jacob Deo</h5>
-                                            <span class="font-12 mb-0">Developer</span>
+                                            <h5 class="m-0 font-14">Dr. Petr Karmelo</h5>
+                                            <span class="font-12 mb-0">Pediatrician</span>
                                         </div>
                                     </div>
                                 </a>
+
+                            </div>
+
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                            </div>
+                            <div class="dropdown-header noti-title">
+                                <h5 class="text-overflow mb-2">Found <span class="text-danger">0</span> results</h5>
                             </div>
                         </div>
                     </div>
@@ -377,7 +357,7 @@
 
                                 <div class="container">
                                     <div class="form-group row">
-                                        <h4 class="col ">Pediatrician</h4>
+                                        <h4 class="col ">Psychiatrist</h4>
                                         <a href="#" class="col " style="text-align: right;">see all</a>
                                     </div>
                                 </div>
@@ -388,107 +368,16 @@
                                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                             class="active"></li>
                                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner" class="img_doct" role="listbox">
                                         <div class="carousel-item active">
-                                            <a href="your_treatmen.html">
-                                                <div class="container-fluid">
-                                                    <div class="row col-12 gy-8 justify-content-start"
-                                                        style="background-color: #E4ECED; border-radius: 20px;">
-                                                        <div
-                                                            class="col-xxl-4 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
-                                                            <img src="./img/doctor-icon.svg"
-                                                                style=" padding-left: 15px; padding-top: 30px;"
-                                                                alt="icon of a doctor" />
-                                                        </div>
-                                                        <div
-                                                            class="col-xxl-8 col-xl-10 col-lg-10 col-md-9 col-sm-9 col-9">
-                                                            <h3
-                                                                style="color: #232E54; padding-top: 20px; padding-left: 15px;">
-                                                                Dr. Ann Derment</h3>
-                                                            <h4 style="color: #9C9FBE; padding-left: 15px;">
-                                                                Pediatrician,
-                                                                Cracow, Poland</h4>
-                                                        </div>
-
-                                                        <!-- End header dr -->
-                                                        <!-- rating dr -->
-
-                                                        <div class="row align-items-center">
-                                                            <div
-                                                                class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1">
-                                                                <img src="./img/star-icon.svg" class="float-start"
-                                                                    style="padding-left: 15px;" alt="icon of a star" />
-                                                            </div>
-                                                            <div
-                                                                class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
-                                                                <h4 style="color: #232E54; padding-left: 15px;">4,2</h4>
-
-                                                            </div>
-                                                            <div
-                                                                class="col-xxl-7 col-xl-7 col-ls-7 col-md-7 col-sm-7 col-7">
-                                                                <h4 style="color: #9C9FBE; ">(11 reviews)</h4>
-                                                            </div>
-                                                        </div>
-                                                        <!-- End rating dr -->
-                                                        <!-- time dr -->
-                                                        <div class="row align-items-center">
-                                                            <div
-                                                                class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                                                                <h4 style="color: #9C9FBE; padding-left: 15px;">
-                                                                    Available
-                                                                    data</h4>
-                                                            </div>
-                                                            <div
-                                                                class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                                                                <h4 style="color: #9C9FBE; padding-left: 15px;">Time
-                                                                </h4>
-                                                            </div>
-                                                        </div>
-                                                        <!-- End time dr -->
-                                                        <!-- date dr -->
-                                                        <div class="row align-items-center">
-                                                            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5"
-                                                                style="padding-left: 20px;">
-                                                                <h4 style="color: #232E54; ">19 Jan 2020</h4>
-                                                            </div>
-                                                            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5"
-                                                                style="padding-left: 40px;">
-                                                                <h4 style="color: #232E54; padding-left: 15px;">11:00 AM
-                                                                </h4>
-                                                            </div>
-                                                        </div>
-                                                        <!-- End date dr -->
-
-                                                        <div class="row">
-                                                            <div class="col" style="padding: 15px;">
-                                                                <button type="button" class="btn btn-outline-dark"
-                                                                    style="border-radius: 15px; width: 100%;">
-                                                                    <h4>Chat</h4>
-                                                                </button>
-                                                            </div>
-                                                            <div class="col" style="padding: 15px;">
-                                                                <button type="button" class="btn btn-outline-dark"
-                                                                    style="border-radius: 15px; width: 100%;">
-                                                                    <h4>Chat</h4>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </a>
+                                            <doct-one></doct-one>
 
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                alt="Second slide">
+                                            <doct-two></doct-two>
                                         </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                alt="Third slide">
-                                        </div>
+
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
                                         data-bs-slide="prev">
@@ -505,7 +394,7 @@
                             <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
                                 <div class="container">
                                     <div class="form-group row">
-                                        <h4 class="col ">Pediatrician</h4>
+                                        <h4 class="col ">Endocrinologist</h4>
                                         <a href="#" class="col " style="text-align: right;">see all</a>
                                     </div>
                                 </div>
@@ -514,20 +403,13 @@
                                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                             class="active"></li>
                                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner" role="listbox">
                                         <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
-                                                alt="First slide">
+                                            <doct-thre></doct-thre>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                alt="Third slide">
+                                            <doct-four></doct-four>
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -545,7 +427,7 @@
                             <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
                                 <div class="container">
                                     <div class="form-group row">
-                                        <h4 class="col ">Pediatrician</h4>
+                                        <h4 class="col ">Oculist</h4>
                                         <a href="#" class="col " style="text-align: right;">see all</a>
                                     </div>
                                 </div>
@@ -554,20 +436,13 @@
                                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                             class="active"></li>
                                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner" role="listbox">
                                         <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
-                                                alt="First slide">
+                                            <doct-five></doct-five>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                alt="Third slide">
+                                            <doct-six></doct-six>
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -583,430 +458,366 @@
                                 </div>
                             </div>
                         </div>
-                        <br>
+                    </div>
+                    <br>
 
-                        <!-- Line 2 -->
+                    <!-- Line 2 -->
 
-                        <div class="container" style="padding-top: 3%;">
-                            <div class="row align-items-start">
-                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
-                                    <div class="container">
-                                        <div class="form-group row">
-                                            <h4 class="col ">Pediatrician</h4>
-                                            <a href="#" class="col " style="text-align: right;">see all</a>
-                                        </div>
-                                    </div>
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                                class="active"></li>
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                                            </li>
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                                            </li>
-                                        </ol>
-                                        <div class="carousel-inner" class="img_doct" role="listbox">
-                                            <div class="carousel-item active">
-                                                <img class="d-block img-fluid img_doct" class="img_doct"
-                                                    src="assets/images/doctors/doct_1.jpg" alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                    alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                    alt="Third slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                            data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                            data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </a>
+                    <div class="container" style="padding-top: 3%;">
+                        <div class="row align-items-start">
+                            <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+
+                                <div class="container">
+                                    <div class="form-group row">
+                                        <h4 class="col ">Psychiatrist</h4>
+                                        <a href="#" class="col " style="text-align: right;">see all</a>
                                     </div>
                                 </div>
-                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
-                                    <div class="container">
-                                        <div class="form-group row">
-                                            <h4 class="col ">Pediatrician</h4>
-                                            <a href="#" class="col " style="text-align: right;">see all</a>
+
+
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner" class="img_doct" role="listbox">
+                                        <div class="carousel-item active">
+                                            <doct-one></doct-one>
+
                                         </div>
-                                    </div>
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                                class="active"></li>
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                                            </li>
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                                            </li>
-                                        </ol>
-                                        <div class="carousel-inner" role="listbox">
-                                            <div class="carousel-item active">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
-                                                    alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                    alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                    alt="Third slide">
-                                            </div>
+                                        <div class="carousel-item">
+                                            <doct-two></doct-two>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                            data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                            data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </a>
+
                                     </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
-                                    <div class="container">
-                                        <div class="form-group row">
-                                            <h4 class="col ">Pediatrician</h4>
-                                            <a href="#" class="col " style="text-align: right;">see all</a>
-                                        </div>
-                                    </div>
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                                class="active"></li>
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                                            </li>
-                                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                                            </li>
-                                        </ol>
-                                        <div class="carousel-inner" role="listbox">
-                                            <div class="carousel-item active">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
-                                                    alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                    alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                    alt="Third slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                            data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                            data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </a>
-                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
                                 </div>
                             </div>
-                            <br>
-
-                            <!-- Line 3 -->
-
-                            <div class="container" style="padding-top: 3%;">
-                                <div class="row align-items-start">
-                                    <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
-                                        <div class="container">
-                                            <div class="form-group row">
-                                                <h4 class="col ">Pediatrician</h4>
-                                                <a href="#" class="col " style="text-align: right;">see all</a>
-                                            </div>
-                                        </div>
-                                        <div id="carouselExampleIndicators" class="carousel slide"
-                                            data-bs-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                                    class="active"></li>
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                                                </li>
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                                                </li>
-                                            </ol>
-                                            <div class="carousel-inner" class="img_doct" role="listbox">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block img-fluid img_doct" class="img_doct"
-                                                        src="assets/images/doctors/doct_1.jpg" alt="First slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                        alt="Second slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                        alt="Third slide">
-                                                </div>
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleIndicators"
-                                                role="button" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleIndicators"
-                                                role="button" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
-                                        <div class="container">
-                                            <div class="form-group row">
-                                                <h4 class="col ">Pediatrician</h4>
-                                                <a href="#" class="col " style="text-align: right;">see all</a>
-                                            </div>
-                                        </div>
-                                        <div id="carouselExampleIndicators" class="carousel slide"
-                                            data-bs-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                                    class="active"></li>
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                                                </li>
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                                                </li>
-                                            </ol>
-                                            <div class="carousel-inner" role="listbox">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
-                                                        alt="First slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                        alt="Second slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                        alt="Third slide">
-                                                </div>
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleIndicators"
-                                                role="button" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleIndicators"
-                                                role="button" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
-                                        <div class="container">
-                                            <div class="form-group row">
-                                                <h4 class="col ">Pediatrician</h4>
-                                                <a href="#" class="col " style="text-align: right;">see all</a>
-                                            </div>
-                                        </div>
-                                        <div id="carouselExampleIndicators" class="carousel slide"
-                                            data-bs-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                                    class="active"></li>
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                                                </li>
-                                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                                                </li>
-                                            </ol>
-                                            <div class="carousel-inner" role="listbox">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-3.jpg"
-                                                        alt="First slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-2.jpg"
-                                                        alt="Second slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block img-fluid" src="assets/images/small/small-1.jpg"
-                                                        alt="Third slide">
-                                                </div>
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleIndicators"
-                                                role="button" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleIndicators"
-                                                role="button" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </a>
-                                        </div>
+                            <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
+                                <div class="container">
+                                    <div class="form-group row">
+                                        <h4 class="col ">Endocrinologist</h4>
+                                        <a href="#" class="col " style="text-align: right;">see all</a>
                                     </div>
                                 </div>
-                                <br>
-
-
-                                <div>
-                                    <form action="">
-
-
-                                    </form>
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <doct-thre></doct-thre>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <doct-four></doct-four>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
                                 </div>
                             </div>
-                            <!-- container -->
-
+                            <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+                                <div class="container">
+                                    <div class="form-group row">
+                                        <h4 class="col ">Oculist</h4>
+                                        <a href="#" class="col " style="text-align: right;">see all</a>
+                                    </div>
+                                </div>
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <doct-five></doct-five>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <doct-six></doct-six>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <!-- content -->
+                    </div>
+                    <br>
 
-                        <!-- Footer Start -->
-                        <footer class="footer">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <script>document.write(new Date().getFullYear())</script> © Fo4Ik
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="text-md-end footer-links d-none d-md-block">
-                                            <a href="javascript: void(0);">About</a>
-                                            <a href="javascript: void(0);">Support</a>
-                                            <a href="javascript: void(0);">Contact Us</a>
-                                        </div>
+                    <!-- Line 3 -->
+
+                    <div class="container" style="padding-top: 3%;">
+                        <div class="row align-items-start">
+                            <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+
+                                <div class="container">
+                                    <div class="form-group row">
+                                        <h4 class="col ">Psychiatrist</h4>
+                                        <a href="#" class="col " style="text-align: right;">see all</a>
                                     </div>
                                 </div>
+
+
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner" class="img_doct" role="listbox">
+                                        <div class="carousel-item active">
+                                            <doct-one></doct-one>
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <doct-two></doct-two>
+                                        </div>
+
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
                             </div>
-                        </footer>
-                        <!-- end Footer -->
-
+                            <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4 ">
+                                <div class="container">
+                                    <div class="form-group row">
+                                        <h4 class="col ">Endocrinologist</h4>
+                                        <a href="#" class="col " style="text-align: right;">see all</a>
+                                    </div>
+                                </div>
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <doct-thre></doct-thre>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <doct-four></doct-four>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-6 col-xl-4 col-lg-6 col-xxl-4">
+                                <div class="container">
+                                    <div class="form-group row">
+                                        <h4 class="col ">Oculist</h4>
+                                        <a href="#" class="col " style="text-align: right;">see all</a>
+                                    </div>
+                                </div>
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <doct-five></doct-five>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <doct-six></doct-six>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <!-- ============================================================== -->
-                    <!-- End Page content -->
-                    <!-- ============================================================== -->
+                    <br>
 
 
+                    <div>
+                        <form action="">
+
+
+                        </form>
+                    </div>
                 </div>
-                <!-- END wrapper -->
+                <!-- container -->
 
-                <!-- Right Sidebar -->
-                <div class="end-bar">
+            </div>
+            <!-- content -->
 
-                    <div class="rightbar-title">
-                        <a href="javascript:void(0);" class="end-bar-toggle float-end">
-                            <i class="dripicons-cross noti-icon"></i>
-                        </a>
-                        <h5 class="m-0">Settings</h5>
-                    </div>
+            <!-- Footer Start -->
+            <my-footer></my-footer>
+            <!-- end Footer -->
 
-                    <div class="rightbar-content h-100" data-simplebar>
+        </div>
 
-                        <div class="p-3">
-
-
-                            <!-- Settings -->
-                            <h5 class="mt-3">Color Scheme</h5>
-                            <hr class="mt-1" />
-
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="light"
-                                    id="light-mode-check" checked>
-                                <label class="form-check-label" for="light-mode-check">Light Mode</label>
-                            </div>
-
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="dark"
-                                    id="dark-mode-check">
-                                <label class="form-check-label" for="dark-mode-check">Dark Mode</label>
-                            </div>
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
 
 
-                            <!-- Width -->
-                            <h5 class="mt-4">Width</h5>
-                            <hr class="mt-1" />
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="width" value="fluid"
-                                    id="fluid-check" checked>
-                                <label class="form-check-label" for="fluid-check">Fluid</label>
-                            </div>
+    </div>
+    <!-- END wrapper -->
 
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="width" value="boxed"
-                                    id="boxed-check">
-                                <label class="form-check-label" for="boxed-check">Boxed</label>
-                            </div>
+    <!-- Right Sidebar -->
+    <div class="end-bar">
+
+        <div class="rightbar-title">
+            <a href="javascript:void(0);" class="end-bar-toggle float-end">
+                <i class="dripicons-cross noti-icon"></i>
+            </a>
+            <h5 class="m-0">Settings</h5>
+        </div>
+
+        <div class="rightbar-content h-100" data-simplebar>
+
+            <div class="p-3">
 
 
-                            <!-- Left Sidebar-->
-                            <h5 class="mt-4">Left Sidebar</h5>
-                            <hr class="mt-1" />
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="theme" value="default"
-                                    id="default-check">
-                                <label class="form-check-label" for="default-check">Default</label>
-                            </div>
+                <!-- Settings -->
+                <h5 class="mt-3">Color Scheme</h5>
+                <hr class="mt-1" />
 
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="theme" value="light"
-                                    id="light-check" checked>
-                                <label class="form-check-label" for="light-check">Light</label>
-                            </div>
-
-                            <div class="form-check form-switch mb-3">
-                                <input class="form-check-input" type="checkbox" name="theme" value="dark"
-                                    id="dark-check">
-                                <label class="form-check-label" for="dark-check">Dark</label>
-                            </div>
-
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="compact" value="fixed"
-                                    id="fixed-check" checked>
-                                <label class="form-check-label" for="fixed-check">Fixed</label>
-                            </div>
-
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="compact" value="condensed"
-                                    id="condensed-check">
-                                <label class="form-check-label" for="condensed-check">Condensed</label>
-                            </div>
-
-                            <div class="form-check form-switch mb-1">
-                                <input class="form-check-input" type="checkbox" name="compact" value="scrollable"
-                                    id="scrollable-check">
-                                <label class="form-check-label" for="scrollable-check">Scrollable</label>
-                            </div>
-
-                            <div class="d-grid mt-4">
-                                <button class="btn btn-primary" id="resetBtn">Reset to Default</button>
-                            </div>
-                        </div> <!-- end padding-->
-
-                    </div>
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="light"
+                        id="light-mode-check" checked>
+                    <label class="form-check-label" for="light-mode-check">Light Mode</label>
                 </div>
 
-                <div class="rightbar-overlay"></div>
-                <!-- /End-bar -->
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="dark"
+                        id="dark-mode-check">
+                    <label class="form-check-label" for="dark-mode-check">Dark Mode</label>
+                </div>
 
-                <!-- bundle -->
-                <script src="assets/js/vendor.min.js"></script>
-                <script src="assets/js/app.min.js"></script>
 
-                <!-- third party js -->
-                <script src="assets/js/vendor/apexcharts.min.js"></script>
-                <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
-                <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-                <!-- third party js ends -->
+                <!-- Width -->
+                <h5 class="mt-4">Width</h5>
+                <hr class="mt-1" />
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="width" value="fluid" id="fluid-check" checked>
+                    <label class="form-check-label" for="fluid-check">Fluid</label>
+                </div>
 
-                <!-- demo app -->
-                <script src="assets/js/pages/demo.dashboard.js"></script>
-                <!-- end demo js-->
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="width" value="boxed" id="boxed-check">
+                    <label class="form-check-label" for="boxed-check">Boxed</label>
+                </div>
+
+
+                <!-- Left Sidebar-->
+                <h5 class="mt-4">Left Sidebar</h5>
+                <hr class="mt-1" />
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="theme" value="default" id="default-check">
+                    <label class="form-check-label" for="default-check">Default</label>
+                </div>
+
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="theme" value="light" id="light-check" checked>
+                    <label class="form-check-label" for="light-check">Light</label>
+                </div>
+
+                <div class="form-check form-switch mb-3">
+                    <input class="form-check-input" type="checkbox" name="theme" value="dark" id="dark-check">
+                    <label class="form-check-label" for="dark-check">Dark</label>
+                </div>
+
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="compact" value="fixed" id="fixed-check"
+                        checked>
+                    <label class="form-check-label" for="fixed-check">Fixed</label>
+                </div>
+
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="compact" value="condensed"
+                        id="condensed-check">
+                    <label class="form-check-label" for="condensed-check">Condensed</label>
+                </div>
+
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" name="compact" value="scrollable"
+                        id="scrollable-check">
+                    <label class="form-check-label" for="scrollable-check">Scrollable</label>
+                </div>
+
+                <div class="d-grid mt-4">
+                    <button class="btn btn-primary" id="resetBtn">Reset to Default</button>
+                </div>
+            </div> <!-- end padding-->
+
+        </div>
+    </div>
+
+    <div class="rightbar-overlay"></div>
+    <!-- /End-bar -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/apexcharts.min.js"></script>
+    <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- third party js ends -->
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.dashboard.js"></script>
+    <!-- end demo js-->
 </body>
 
 <!-- Mirrored from coderthemes.com/hyper/saas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Dec 2021 10:15:45 GMT -->

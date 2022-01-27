@@ -22,7 +22,10 @@
     <!-- App css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
+    <link href="assets/css/body.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
+
+    <script type="module" src="pages/myFooter.js"></script>
 </head>
 
 <body class="loading"
@@ -291,45 +294,25 @@
                         </form>
 
                         <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
+
                             <!-- item-->
                             <div class="dropdown-header noti-title">
-                                <h5 class="text-overflow mb-2">
-                                    Found <span class="text-danger">17</span> results
-                                </h5>
+                                <h6 class="text-overflow mb-2 text-uppercase">Doctors</h6>
                             </div>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="uil-notes font-16 me-1"></i>
-                                <span>Analytics Report</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="uil-life-ring font-16 me-1"></i>
-                                <span>How can I help you?</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="uil-cog font-16 me-1"></i>
-                                <span>User profile settings</span>
-                            </a>
-
-                            <!-- item-->
                             <div class="dropdown-header noti-title">
-                                <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                                <h5 class="text-overflow mb-2">Found <span class="text-danger">2</span> results</h5>
                             </div>
 
                             <div class="notification-list">
+
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <a href="javascript:void(0); ./your_treatmen.html" class="dropdown-item notify-item">
                                     <div class="d-flex">
-                                        <img class="d-flex me-2 rounded-circle" src="assets/images/users/avatar-2.jpg"
-                                            alt="Generic placeholder image" height="32" />
+                                        <img class="d-flex me-2 rounded-circle" src="./img/doctor-icon.svg"
+                                            alt="Generic placeholder image" height="32">
                                         <div class="w-100">
-                                            <h5 class="m-0 font-14">Erwin Brown</h5>
-                                            <span class="font-12 mb-0">UI Designer</span>
+                                            <h5 class="m-0 font-14">Dr. Ann Derment</h5>
+                                            <span class="font-12 mb-0">Pediatrician</span>
                                         </div>
                                     </div>
                                 </a>
@@ -337,14 +320,22 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="d-flex">
-                                        <img class="d-flex me-2 rounded-circle" src="assets/images/users/avatar-5.jpg"
-                                            alt="Generic placeholder image" height="32" />
+                                        <img class="d-flex me-2 rounded-circle" src="./img/doctors/doct-2.svg"
+                                            alt="Generic placeholder image" height="32">
                                         <div class="w-100">
-                                            <h5 class="m-0 font-14">Jacob Deo</h5>
-                                            <span class="font-12 mb-0">Developer</span>
+                                            <h5 class="m-0 font-14">Dr. Petr Karmelo</h5>
+                                            <span class="font-12 mb-0">Pediatrician</span>
                                         </div>
                                     </div>
                                 </a>
+
+                            </div>
+
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                            </div>
+                            <div class="dropdown-header noti-title">
+                                <h5 class="text-overflow mb-2">Found <span class="text-danger">0</span> results</h5>
                             </div>
                         </div>
                     </div>
@@ -621,25 +612,7 @@
     <!-- content -->
 
     <!-- Footer Start -->
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>
-                    Project PolMed został zrobiony przez Lizaveta Rashchynskaya, Oscar Zając i Vlad Zinkovskyi
-                </div>
-                <div class="col-md-6">
-                    <div class="text-md-end footer-links d-none d-md-block">
-                        <a href="javascript: void(0);">About</a>
-                        <a href="javascript: void(0);">Support</a>
-                        <a href="javascript: void(0);">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <my-footer></my-footer>
     <!-- end Footer -->
     </div>
 
